@@ -302,9 +302,13 @@ p .small {
   .esignup {
     flex-direction: column;
     gap: 15px;
+    /* min-width: none; */
   }
   .esignup input{
-    width: 100%;
+    width: 70%;
+  }
+  .img-cont img {
+    min-width: 330px;
   }
   /* label::after{
     font-size: 28px;
