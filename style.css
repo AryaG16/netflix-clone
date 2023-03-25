@@ -195,7 +195,7 @@ nav button {
 .accordion li label:hover {
   background-color: #4c4a4a;
 }
-input[type="radio"] {
+input[type="checkbox"] {
   display: none;
 }
 label::after {
@@ -214,11 +214,11 @@ label::after {
   overflow: hidden;
   transition: 0.3s;
 }
-.accordion input[type="radio"]:checked + label + .content {
+.accordion input[type="checkbox"]:checked + label + .content {
   max-height: 600px;
   padding: 30px 20px;
 }
-.accordion input[type="radio"]:checked + label::after {
+.accordion input[type="checkbox"]:checked + label::after {
   transform: rotate(135deg);
 }
 p .small {
